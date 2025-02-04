@@ -3,9 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/styles/index.styles.css">
     <title>Contador</title>
 </head>
 <body>
     
+    <section>
+
+        <h1>Contador</h1>
+
+        <div class="container">
+            <button id="btn_aumentar" class="btn_aumentar" onclick="aumentar()">Acréscimo</button>
+
+            <p id="contador">0</p>
+
+            <button id="btn_diminuir" class="btn_diminuir" onclick="diminuir()">Decréscimo</button>
+        </div>
+
+        <div class="container_reset">
+            <button id="btn_reset" onclick="resetar()">Resetar</button>
+        </div>
+
+    </section>
+
+    <script src="./assets/scripts/index.scripts.js"></script>
 </body>
 </html>
